@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #F5F5F5;
+}
+
+h1 {
+  position: relative;
+  font-size: 60px;
+  color: #F5F5F5;
+  -webkit-text-stroke: 0.3vw #D9D8D0;
+  text-transform: uppercase;
+}
+h1:before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  color: #BF9169;
+  -webkit-text-stroke: 0vw #D9D8D0;
+  border-right: 2px solid #BF9169;
+  overflow: hidden;
+  animation: animate 6s linear infinite;
+}
+
+@keyframes animate {
+  0%,10%,100% {
+    width: 0;
+  }
+  70%,90% {
+    width: 100%;
+  }
+}
