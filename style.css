@@ -131,26 +131,20 @@ li a {
 
 .container2 .box .content h2 {
   color: #fff;
+  background: #1010108a;
+  padding: 8px;
   transition: 0.5s;
   text-transform: uppercase;
-  margin-bottom: 5px;
-  font-size:  20px;
+  margin-bottom: 40px;
+  font-size:  12px;
+  font-family: sans-serif;
+  font-weight: lighter;
   transform: translateY(200px);
+  width: 300px;
+  text-align: center;
 }
 
 .container2 .box:hover .content h2 {
   transform: translateY(0);
   transition-delay: 0.6s;
-}
-
-.container2 .box .content p {
-  color: #fff;
-  transform: translateY(200px);
-  transition: 0.5s;
-  font-size: 14px;
-}
-
-.container2 .box:hover .content p {
-  transform: translateY(0);
-  transition-delay: 0.7s;
 }
