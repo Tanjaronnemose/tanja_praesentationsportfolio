@@ -1,7 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,7 +9,8 @@ body {
 }
 
 main {
-  min-height: calc(100vh - 149.38px - 100px);
+padding-bottom: 50px;
+overflow: auto;
 }
 
 footer {
@@ -18,6 +18,9 @@ footer {
   font-weight: lighter;
   font-family: sans-serif;
   text-align: center;
+  padding: 10px;
+  position: relative;
+  height: 70px;
 }
 
 h1 {
