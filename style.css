@@ -23,12 +23,22 @@ footer {
   height: 70px;
 }
 
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  margin-top: 12px;
+
+}
+
 h1 {
-  position: relative;
-  font-size: 60px;
+  position: relative; 
+  margin-top: 100px;
+  font-size: 40px;
   color: #F5F5F5;
-  -webkit-text-stroke: 0.3vw #D9D8D0;
-  text-transform: uppercase;
+  -webkit-text-stroke: 0.1vw #D9D8D0;
+
 }
 h1:before {
   content: attr(data-text);
@@ -55,7 +65,7 @@ h1:before {
 
 .container {
   position: absolute;
-  top: 25%;
+  top: 22%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
 }
