@@ -205,12 +205,7 @@ li a {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.icon {
-  font-size: 22px;
-  color: #010101;
-  transition: 0.3s linear;
+  font-size: 30px;
 }
 
 .card:hover > .icon {
