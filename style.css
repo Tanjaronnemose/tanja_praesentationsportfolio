@@ -1,4 +1,7 @@
-
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   margin: 0;
@@ -12,8 +15,6 @@ body {
 
 main {
 padding-bottom: 50px;
-overflow: auto;
-margin: 10px;
 }
 
 footer {
@@ -242,6 +243,67 @@ li a {
   opacity: 1;
   bottom: 10px;
   transition: 0.3s linear 0.3s;
+}
+
+.container3 {
+  width: 800px;
+  height: 600px;
+
+  box-sizing: border-box;
+  padding: 40px;
+}
+
+.input, .msg .area {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  border: 2px solid #e9eaea;
+  font-size: 14px;
+  outline: none;
+  transition: all 0.5s ease;
+}
+
+.login .input {
+  width: 48%;
+  float: left;
+  margin-right: 4%;
+}
+
+.login .input:last-child {
+  margin-right: 0;
+}
+
+.msg .area {
+  height: 200px;
+}
+
+.btn {
+  width: 150px;
+  background: #A63D17;
+  height: 40px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 40px;
+  color: #fdfdfd;
+  text-transform: uppercase;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.input:focus,
+.msg .area:focus {
+  border: 2px solid #A63D17;
+}
+
+::-webkit-input-placeholder {
+  font-family: "Roboto", sans-serif;
+}
+
+
+
+::-msg-input-placeholder {
+  font-family: "Roboto", sans-serif;
 }
 
 .icons a {
