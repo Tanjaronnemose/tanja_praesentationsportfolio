@@ -1,3 +1,5 @@
+
+
 body {
   margin: 0;
   padding: 0;
@@ -11,7 +13,6 @@ body {
 main {
 padding-bottom: 50px;
 overflow: auto;
-text-align: left;
 margin: 10px;
 }
 
@@ -185,6 +186,67 @@ li a {
 .container2 .box:hover .content h2 {
   transform: translateY(0);
   transition-delay: 0.2s;
+}
+
+.contact-info {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.card {
+  position: relative;
+  flex: 1;
+  max-width: 200px;
+  height: 90px;
+  margin: 0px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  font-size: 22px;
+  color: #010101;
+  transition: 0.3s linear;
+}
+
+.card:hover > .icon {
+  transform: scale(2);
+  opacity: 0;
+}
+
+.card-content h3, .card-content span {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 15px;
+  opacity: 0;
+}
+
+.card-content h3 {
+  top: 20px;
+  text-transform: uppercase;
+  color: #A63D17;
+}
+
+.card-content span {
+  bottom: 20px;
+  color: #010101;
+  font-weight: lighter;
+}
+
+.card:hover h3 {
+  opacity: 1;
+  transition: 0.3s linear 0.3s;
+}
+
+.card:hover span {
+  opacity: 1;
+  bottom: 10px;
+  transition: 0.3s linear 0.3s;
 }
 
 .icons a {
