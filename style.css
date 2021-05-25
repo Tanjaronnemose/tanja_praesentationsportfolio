@@ -245,11 +245,23 @@ li a {
   transition-delay: 0.2s;
 }
 
-.portfolio_text {
+.portfolio_h2 {
   margin-top: 300px;
   font-size: 35px;
   width: 40%;
+}
 
+.textbox {
+  margin-top: -350px;
+  margin-left: 530px;
+  margin-bottom: 500px;
+  max-width: 400px;
+  padding: 15px;
+  font-family: sans-serif;
+  font-weight: lighter;
+  line-height: 1.5;
+  box-shadow: 10px 10px 20px rgba(0,0,0,0.3);
+  height: 320px;
 }
 
 .portfolio_container {
