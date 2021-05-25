@@ -245,6 +245,11 @@ li a {
   transition-delay: 0.2s;
 }
 
+.portfolio_text {
+  margin-top: 300px;
+  font-size: 50px;
+}
+
 .contact-info {
   width: 60%;
   display: flex;
@@ -355,8 +360,6 @@ li a {
 ::-webkit-input-placeholder {
   font-family: "Roboto", sans-serif;
 }
-
-
 
 ::-msg-input-placeholder {
   font-family: "Roboto", sans-serif;
