@@ -194,10 +194,10 @@ li a {
 }
 
 .container2 .box {
-  padding: 4px;
+  padding: 17px;
   margin: 20px;
   position: relative;
-  width: 410px;
+  width: 420px;
   height: 350px;
   overflow: hidden;
   transition: 0.5s;
@@ -262,13 +262,13 @@ li a {
 .portfolio_h2 {
   margin-top: 300px;
   font-size: 35px;
-  width: 40%;
+
 }
 
 .textbox {
   margin-top: -350px;
   margin-left: 530px;
-  margin-bottom: 500px;
+  margin-bottom: 50px;
   max-width: 400px;
   padding: 15px;
   font-family: sans-serif;
@@ -279,7 +279,7 @@ li a {
 }
 
 .portfolio_container {
-  margin-left: 100px;
+  margin-left: 80px;
 
 }
 
