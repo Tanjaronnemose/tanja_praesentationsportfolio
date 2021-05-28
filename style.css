@@ -6,7 +6,7 @@ body {
   display: flex;
   flex-direction: column;
   background: #fdfdfd;
-  font-family: sans-serif;
+  font-family: arial;
 }
 
 header {
@@ -45,7 +45,6 @@ section {
 footer {
   font-size: 11px;
   font-weight: lighter;
-  font-family: sans-serif;
   text-align: center;
   padding: 10px;
   position: relative;
@@ -117,17 +116,12 @@ footer {
 
 @media screen and (max-width: 767px) {
   .wrapper {
-    display: block;
-    float: right;
-    width: 200px;
-    height: 200px;
-    margin-right: 50px;
+    display: none;
   }
 }
 
 h1 {
   position: relative;
-  font-family: sans-serif;
   font-size: 50px;
   color: #F5F5F5;
   -webkit-text-stroke: 0.1vw #D9D8D0;
@@ -173,10 +167,9 @@ li a {
   text-decoration: none;
   display: inline-block;
   color: #101010;
-  font-family: Source Sans Pro;
   font-weight: lighter;
   font-size: 14px;
-  padding: 0 50px;
+  padding: 0 45px;
 }
 
 .nav::after {
@@ -322,22 +315,21 @@ li a {
   align-items: flex-end;
 }
 
-.container2 .box .content h2 {
+.container2 .box .content p {
   color: #fff;
   background: #1010108a;
   padding: 8px;
   transition: 0.5s;
   text-transform: uppercase;
   margin-bottom: 40px;
-  font-size:  12px;
-  font-family: sans-serif;
+  font-size:  14px;
   font-weight: lighter;
   transform: translateY(200px);
   width: 300px;
   text-align: center;
 }
 
-.container2 .box:hover .content h2 {
+.container2 .box:hover .content p {
   transform: translateY(0);
   transition-delay: 0.2s;
 }
@@ -378,6 +370,7 @@ li a {
 .portfolio_h2 {
   margin-top: 300px;
   font-size: 35px;
+  font-weight: lighter;
 }
 
 .textbox {
@@ -386,7 +379,6 @@ li a {
   margin-bottom: 50px;
   max-width: 400px;
   padding: 15px;
-  font-family: sans-serif;
   font-size: 14px;
   font-weight: lighter;
   line-height: 1.5;
@@ -462,7 +454,6 @@ li a {
   margin-bottom: 50px;
   max-width: 450px;
   padding: 15px;
-  font-family: sans-serif;
   font-size: 14px;
   font-weight: lighter;
   line-height: 1.5;
@@ -513,7 +504,6 @@ li a {
   margin-left: -640px;
   margin-bottom: 50px;
   max-width: 321px;
-  font-family: sans-serif;
   font-size: 14px;
   font-weight: lighter;
   line-height: 1.5;
@@ -573,15 +563,15 @@ li a {
   opacity: 0;
 }
 
-.card-content h3, .card-content span {
+.card-content p, .card-content span {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 15px;
+  font-size: 14px;
   opacity: 0;
 }
 
-.card-content h3 {
+.card-content p {
   top: 20px;
   text-transform: uppercase;
   color: #A63D17;
@@ -593,7 +583,7 @@ li a {
   font-weight: lighter;
 }
 
-.card:hover h3 {
+.card:hover p {
   opacity: 1;
   transition: 0.3s linear 0.3s;
 }
@@ -608,7 +598,6 @@ li a {
 .container3 {
   width: 600px;
   height: 600px;
-
   box-sizing: border-box;
   padding: 40px;
 }
@@ -654,14 +643,6 @@ li a {
 .input:focus,
 .msg .area:focus {
   border: 2px solid #A63D17;
-}
-
-::-webkit-input-placeholder {
-  font-family: sans-serif;
-}
-
-::-msg-input-placeholder {
-  font-family: sans-serif;
 }
 
 /* footer */
