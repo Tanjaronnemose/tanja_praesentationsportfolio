@@ -451,7 +451,6 @@ li a {
 .content-section {
   margin-top: 80px;
   margin-left: -490px;
-  margin-bottom: 50px;
   max-width: 450px;
   padding: 15px;
   font-size: 14px;
@@ -468,6 +467,12 @@ li a {
 
 .about_img:hover {
   filter: grayscale(100%);
+}
+
+.underskrift {
+  width: 100px;
+
+  margin-top: -10px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
